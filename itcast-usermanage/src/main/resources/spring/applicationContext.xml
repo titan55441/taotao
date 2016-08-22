@@ -23,7 +23,7 @@
 	</bean>
 
 	<!-- 扫描包 -->
-	<context:component-scan base-package="com.itcast"/>
+	<context:component-scan base-package="cn.itcast"/>
 
 	 <!-- 定义数据源 -->
 	<bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource"
